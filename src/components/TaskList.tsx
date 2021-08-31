@@ -21,7 +21,7 @@ export function TaskList() {
     const newTask = {
       id: Math.random(),
       title: newTaskTitle,
-      isComplete: false
+      isComplete: false,
     }
 
     setTasks(oldState => [...oldState, newTask]);
